@@ -1,0 +1,16 @@
+alternative_id,criterion,score,justification
+aws,cost,,Derived from illustrative compute/storage/egress rates using fixed-population min-max normalization.
+aws,security,4,Demonstration rubric: encryption and IAM baseline assumed; not a compliance certification.
+aws,scalability,5,Illustrative assessment of a mature VM autoscaling ecosystem; not measured.
+aws,performance,4,Illustrative workload suitability; no comparable benchmark collected.
+aws,management,3,Illustrative assessment assumes more manual infrastructure operations.
+azure,cost,,Derived from illustrative compute/storage/egress rates using fixed-population min-max normalization.
+azure,security,5,Demo evidence fixture includes customer managed keys; provider capabilities require verification for deployment.
+azure,scalability,4,Illustrative assessment of VM scale set flexibility; not measured.
+azure,performance,4,Illustrative workload suitability; no comparable benchmark collected.
+azure,management,4,Illustrative assessment assumes familiarity with Microsoft operations tooling.
+gcp,cost,,Derived from illustrative compute/storage/egress rates using fixed-population min-max normalization.
+gcp,security,4,Demonstration rubric: encryption and IAM baseline assumed; not a compliance certification.
+gcp,scalability,4,Illustrative assessment of managed instance groups; not measured.
+gcp,performance,3,Illustrative suitability for variable workloads; not a measured speed comparison.
+gcp,management,5,Illustrative assessment assumes team familiarity with Google Cloud tooling.

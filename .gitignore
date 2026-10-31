@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+frontend/dist/
+backend/data/*.db
+*.log
+.qa/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.txt
+.DS_Store
+Thumbs.db

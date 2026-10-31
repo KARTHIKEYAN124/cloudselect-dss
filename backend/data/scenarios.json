@@ -1,0 +1,5 @@
+[
+  {"id":"startup","name":"Cost-sensitive startup","description":"A lean web application with an €80 monthly ceiling.","requirements":{"budget_eur":80,"weights":{"cost":60,"security":10,"scalability":10,"performance":10,"management":10}}},
+  {"id":"security","name":"Security-sensitive application","description":"Require customer-managed keys evidence in the demo dataset.","requirements":{"budget_eur":120,"required_security":["customer_managed_keys"],"weights":{"cost":10,"security":60,"scalability":10,"performance":10,"management":10}}},
+  {"id":"growth","name":"Growing application","description":"Prioritize scaling flexibility and performance suitability.","requirements":{"budget_eur":150,"weights":{"cost":5,"security":10,"scalability":45,"performance":35,"management":5}}}
+]
